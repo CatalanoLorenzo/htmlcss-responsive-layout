@@ -28,6 +28,7 @@
     width: 80%;
     margin: auto;
     flex-wrap: wrap;
+    max-width: 1552px;
 }
 
 li {
@@ -120,6 +121,7 @@ nav .ico_menu svg {
 .intro p,
 .intro h2 {
     padding: 1rem 0;
+    line-height: 1.5rem;
 }
 
 .text_intro button {
@@ -163,10 +165,28 @@ nav .ico_menu svg {
 .planning {
     background-color: var(--lightviolet);
 }
-
-
-
-
+.container_whait{
+    background-color: var(--white);
+    color: var(--footer);
+    border-radius: 2rem;
+    height: 100%;
+}
+.planning .row [class ^="col"] > *{
+    padding: 1rem 0;
+    line-height: 1.5rem;
+    color: var(--white);
+}
+.planning img{
+    max-width: 80%;
+    padding: 1rem 0;
+}
+.disc{
+    border-radius: 50%;
+    background-color: var(--lightviolet);
+    text-align: center;
+    width: 5%;
+    aspect-ratio: 1/1;
+}
 /* #endregion planning */
 /* #region partners */
 .partners {
