@@ -17,6 +17,10 @@
 *{
     font-family: 'PT Sans', sans-serif;
 }
+li{
+    list-style-type: none;
+}
+
 /* #region debug */
 [class^=col_]{
     background: green;
@@ -29,10 +33,47 @@ header{
 }
 nav{
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding: 1rem 1rem;
+}
+nav .logo img{
+    height: 1.5rem;
 }
 nav ul{
     display: none;
 }
+nav .menu_lg *{
+    margin: 0 0.5rem;
+    display: none;
+}
+nav li > a{
+    text-decoration: none;
+    color: var(--white);
+}
+nav .menu_lg button{
+    background-color: var(--white);
+    color: var(--footer);
+    border-radius: 1rem;
+    padding: 0.2rem;
+    border: 0;
+}
+nav .ico_menu svg{
+    fill: var(--white);
+    height: 1rem;
+}
 /* #endregion header */
+/* #region responsive */
+@media screen and (min-width: 768px){
+    /* header */
+    nav .menu_lg *{
+        display: flex;
+    }
+    nav .ico_menu{
+        display: none;
+    }
+}
+
+
+
+/* #endregion responsive */
