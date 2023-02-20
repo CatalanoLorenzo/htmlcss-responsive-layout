@@ -96,8 +96,11 @@ nav .ico_menu svg {
     background-color: var(--white);
     padding: 1rem 0;
 }
-
-
+.intro [class ^="col"]{
+    background-color: var(--lightblue);
+    border-radius: 1rem;
+    fill: var(--header);
+}
 
 
 
