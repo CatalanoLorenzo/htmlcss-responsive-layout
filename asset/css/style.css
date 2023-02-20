@@ -172,10 +172,25 @@ nav .ico_menu svg {
 /* #region planning */
 .planning {
     background-color: var(--lightviolet);
+    padding: 2rem 0;
 }
 
 .planning .row {
     flex-direction: column;
+}
+
+.planning .container {
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+}
+
+.planning .container p {
+    padding: 1rem 0;
+}
+
+.planning .container img {
+    max-width: 100%;
 }
 
 .planning .container_whait {
@@ -210,18 +225,71 @@ nav .ico_menu svg {
 /* #endregion planning */
 /* #region partners */
 .partners {
+    padding: 2rem 0;
     background-color: var(--white);
+    color: gray;
 }
 
+.partners h2 {
+    color: var(--lightviolet);
+}
 
+.partners .container_violet {
+    background-color: var(--lightviolet);
+    color: var(--white);
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.partners .container_violet .img {
+    width: 30%;
+    padding: 0.5rem;
+}
+
+.partners .container_violet .img img {
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.partners .container_violet .text_area {
+    width: 65%;
+}
+
+.partners .container_violet .text_area h2,
+.partners .container_violet .text_area p {
+    color: var(--white);
+    font-size: 0.7rem;
+    padding: 0.5rem;
+}
 
 /* #endregion partners */
 /* #region benefits */
 .benefits {
     background-color: var(--lightviolet);
 }
-
-
+.benefits .col_6{
+    padding: 1rem;
+}
+.benefits .container_whait {
+    background-color: var(--white);
+    color: var(--lightviolet);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.benefits .container_whait h3{
+    font-size: 2rem;
+}
+.benefits .container_whait button{
+    background-color: var(--lightviolet);
+    color: var(--white);
+    padding: 0.5rem 2rem;
+    border: 0;
+    border-radius: 1rem
+    ;
+}
 /* #endregion benefits */
 /* #region about */
 .about {
@@ -256,6 +324,7 @@ nav .ico_menu svg {
 
     /* main */
 
+    /* intro */
     .intro .col_md_8 .container {
         flex-direction: row;
         align-items: start;
@@ -266,21 +335,39 @@ nav .ico_menu svg {
         text-align: start;
     }
 
+    /* planning */
     .planning .row {
         flex-direction: row;
+        align-items: center;
+    }
+
+    .planning .container img {
+        max-width: 50%;
     }
 
     .planning .container_whait {
         height: 60%;
         width: 40%;
-        margin-top: 25%;
+        margin-top: 20%;
+        margin-bottom: 5%;
         line-height: 1.5rem;
     }
 
     .planning .container_whait .disc {
-        
         width: 10%;
     }
+    .partners .container_violet .text_area {
+        width: 60%;
+    }
+
+    /* partners */
+    .partners .container_violet .text_area h2,
+    .partners .container_violet .text_area p {
+        font-size: 2rem;
+        padding: 0 3rem;
+    }
+
+
 }
 
 /* #endregion responsive */
