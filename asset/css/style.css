@@ -74,7 +74,7 @@ nav .ico_menu svg{
     background-color: var(--white);
     padding: 1rem 0;
 }
-.intro .row{
+.intro .row,.planning .row{
     width: 80%;
     margin: auto;
     flex-wrap: wrap;
