@@ -1,18 +1,18 @@
 :root {
     /* colors */
-    
+
     --header: rgba(0, 132, 253, 1);
-    
+
     --white: rgba(255, 255, 255, 1);
-    
+
     --lightblue: rgba(181, 221, 255, 1);
-    
+
     --lightviolet: rgba(151, 146, 228, 1);
-    
+
     --yellow: rgba(253, 193, 95, 1);
-    
+
     --footer: rgba(51, 51, 51, 1);
-    
+
 }
 
 * {
@@ -29,18 +29,23 @@
     margin: auto;
     flex-wrap: wrap;
 }
+
 li {
     list-style-type: none;
 }
-
+button{
+    border-radius: 1rem;
+    padding: 0.2rem;
+    border: 0;
+}
 /* #region debug */
-[class ^="col"] {
+.debug [class ^="col"] {
     background: green;
     height: 100px;
     padding: 1rem;
 }
 
-main>* {
+.debug main>* {
     height: 500px;
 }
 
@@ -79,9 +84,6 @@ nav li>a {
 nav .menu_lg button {
     background-color: var(--white);
     color: var(--footer);
-    border-radius: 1rem;
-    padding: 0.2rem;
-    border: 0;
 }
 
 nav .ico_menu svg {
@@ -96,17 +98,40 @@ nav .ico_menu svg {
     background-color: var(--white);
     padding: 1rem 0;
 }
-.intro [class ^="col"]{
+
+.intro [class ^="col"] {
     background-color: var(--lightblue);
     border-radius: 1rem;
     fill: var(--header);
 }
 
+.text_intro h2 {
+    color: var(--header);
+}
 
+.text_intro {
+    padding: 1rem;
+}
+
+.text_intro p,
+.text_intro h2 {
+    padding: 1rem 0;
+}
+.text_intro button{
+    background-color: var(--header);
+    color: var(--white);
+    width: 60%;
+}
+.intro img {
+    max-width: 50%;
+    aspect-ratio: 1;
+    padding-top: 10%;
+    padding-right: 10%;
+}
 
 /* #endregion intro */
 /* #region planning */
-.planning{
+.planning {
     background-color: var(--lightviolet);
 }
 
@@ -115,7 +140,7 @@ nav .ico_menu svg {
 
 /* #endregion planning */
 /* #region partners */
-.partners{
+.partners {
     background-color: var(--white);
 }
 
@@ -123,14 +148,14 @@ nav .ico_menu svg {
 
 /* #endregion partners */
 /* #region benefits */
-.benefits{
+.benefits {
     background-color: var(--lightviolet);
 }
 
 
 /* #endregion benefits */
 /* #region about */
-.about{
+.about {
     background-color: var(--white);
 }
 
