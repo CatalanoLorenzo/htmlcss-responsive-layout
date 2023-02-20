@@ -22,8 +22,13 @@ li{
 }
 
 /* #region debug */
-[class^=col_]{
+[class ^= "col"]{
     background: green;
+    height: 100px;
+    padding: 1rem;
+}
+main > *{
+    height: 500px;
 }
 /* #endregion debug */
 
@@ -63,6 +68,27 @@ nav .ico_menu svg{
     height: 1rem;
 }
 /* #endregion header */
+/* #region main */
+/* #region intro */
+.intro{
+    background-color: var(--white);
+    padding: 1rem 0;
+}
+.intro .row{
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+
+
+/* #endregion intro */
+
+
+
+
+/* #endregion main */
 /* #region responsive */
 @media screen and (min-width: 768px){
     /* header */
@@ -72,6 +98,8 @@ nav .ico_menu svg{
     nav .ico_menu{
         display: none;
     }
+    /* main */
+
 }
 
 
