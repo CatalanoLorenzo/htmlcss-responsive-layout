@@ -1,103 +1,151 @@
-:root{
+:root {
     /* colors */
-
-  --header: rgba(0, 132, 253, 1);
-
-  --white: rgba(255, 255, 255, 1);
-
-  --lightblue: rgba(181, 221, 255, 1);
-
-  --lightviolet: rgba(151, 146, 228, 1);
-
-  --yellow: rgba(253, 193, 95, 1);
-
-  --footer: rgba(51, 51, 51, 1);
-
+    
+    --header: rgba(0, 132, 253, 1);
+    
+    --white: rgba(255, 255, 255, 1);
+    
+    --lightblue: rgba(181, 221, 255, 1);
+    
+    --lightviolet: rgba(151, 146, 228, 1);
+    
+    --yellow: rgba(253, 193, 95, 1);
+    
+    --footer: rgba(51, 51, 51, 1);
+    
 }
-*{
+
+* {
     font-family: 'PT Sans', sans-serif;
 }
-li{
+
+.intro .row,
+.planning .row,
+.partners .row,
+.benefits .row,
+.about .row,
+.get .row {
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+li {
     list-style-type: none;
 }
 
 /* #region debug */
-[class ^= "col"]{
+[class ^="col"] {
     background: green;
     height: 100px;
     padding: 1rem;
 }
-main > *{
+
+main>* {
     height: 500px;
 }
+
 /* #endregion debug */
 
 /* #region header */
-header{
+header {
     background-color: var(--header);
 }
-nav{
+
+nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 1rem 1rem;
 }
-nav .logo img{
+
+nav .logo img {
     height: 1.5rem;
 }
-nav ul{
+
+nav ul {
     display: none;
 }
-nav .menu_lg *{
+
+nav .menu_lg * {
     margin: 0 0.5rem;
     display: none;
 }
-nav li > a{
+
+nav li>a {
     text-decoration: none;
     color: var(--white);
 }
-nav .menu_lg button{
+
+nav .menu_lg button {
     background-color: var(--white);
     color: var(--footer);
     border-radius: 1rem;
     padding: 0.2rem;
     border: 0;
 }
-nav .ico_menu svg{
+
+nav .ico_menu svg {
     fill: var(--white);
     height: 1rem;
 }
+
 /* #endregion header */
 /* #region main */
 /* #region intro */
-.intro{
+.intro {
     background-color: var(--white);
     padding: 1rem 0;
 }
-.intro .row, .planning .row, .partners .row, .benefits .row ,.about .row{
-    width: 80%;
-    margin: auto;
-    flex-wrap: wrap;
-}
+
 
 
 
 
 /* #endregion intro */
+/* #region planning */
+.planning{
+    background-color: var(--lightviolet);
+}
 
 
 
 
+/* #endregion planning */
+/* #region partners */
+.partners{
+    background-color: var(--white);
+}
+
+
+
+/* #endregion partners */
+/* #region benefits */
+.benefits{
+    background-color: var(--lightviolet);
+}
+
+
+/* #endregion benefits */
+/* #region about */
+.about{
+    background-color: var(--white);
+}
+
+/* #endregion about */
 /* #endregion main */
 /* #region responsive */
-@media screen and (min-width: 768px){
+
+@media screen and (min-width: 768px) {
+
     /* header */
-    nav .menu_lg *{
+    nav .menu_lg * {
         display: flex;
     }
-    nav .ico_menu{
+
+    nav .ico_menu {
         display: none;
     }
+
     /* main */
 
 }
