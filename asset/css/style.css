@@ -107,7 +107,6 @@ nav .ico_menu svg {
 .intro .col_md_4,
 .intro .col_12 {
     padding: 1rem;
-    max-width: 100%;
 }
 
 .intro .container {
@@ -125,7 +124,6 @@ nav .ico_menu svg {
 .intro .col_md_4 .container {
     padding: 3rem;
     justify-content: center;
-    max-width: 100%;
 }
 
 .text_intro {
