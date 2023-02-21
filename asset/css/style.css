@@ -368,14 +368,14 @@ nav .ico_menu svg {
 
 .get .container {
     color: var(--white);
-    padding: 10% 0;
+    padding: 2% 0;
 }
 
 .get .container h4,
 .get .container h3,
 .get .container h2
 {
-    padding: 3% 0;
+    padding: 2% 0;
 }
 
 .get .container h4 {
@@ -410,6 +410,20 @@ nav .ico_menu svg {
 
 /* #endregion get */
 /* #endregion main */
+/* #region footer */
+footer{
+    background-color: var(--footer);
+    justify-content: center;
+}
+footer .container{
+    text-align: center;
+    color: var(--white);
+    width: 60%;
+}
+footer .container p{
+    padding: 5% 0;
+}
+/* #endregion footer */
 /* #region responsive */
 /* Tablet */
 @media screen and (min-width:768px) and (max-width:1552px) {
@@ -461,7 +475,9 @@ nav .ico_menu svg {
         margin: auto;
     }
    
-
+    footer .container{
+        width: 30%;
+    }
 }
 
 /* desktop */
@@ -576,6 +592,9 @@ nav .ico_menu svg {
     .get .container {
         width: 50%;
         margin: auto;
+    }
+    footer .container{
+        width: 30%;
     }
 }
 
