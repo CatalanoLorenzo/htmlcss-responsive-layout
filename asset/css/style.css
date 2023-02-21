@@ -106,6 +106,7 @@ nav .ico_menu svg {
 .intro .col_md_4,
 .intro .col_12 {
     padding: 1rem;
+    max-width: 100%;
 }
 
 .intro .container {
@@ -122,7 +123,8 @@ nav .ico_menu svg {
 
 .intro .col_md_4 .container {
     padding: 3rem;
-    justify-content: flex-start;
+    justify-content: center;
+    max-width: 100%;
 }
 
 .text_intro {
@@ -217,9 +219,7 @@ nav .ico_menu svg {
     text-align: center;
     margin: auto;
     padding: 0.5rem;
-    width: 5%;
-    aspect-ratio: 1/1;
-    line-height: 2rem;
+    width: 11%;
 }
 
 /* #endregion planning */
@@ -270,7 +270,9 @@ nav .ico_menu svg {
 .benefits {
     background-color: var(--lightviolet);
 }
-.benefits .col_6{
+.benefits .col_12,
+.benefits .col_md_6,
+.benefits .col_lg_4{
     padding: 1rem;
 }
 .benefits .container_whait {
@@ -280,15 +282,20 @@ nav .ico_menu svg {
     padding: 1rem;
 }
 .benefits .container_whait h3{
-    font-size: 2rem;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+.benefits .container_whait p{
+    color: gray;
+    padding: 1rem 0;
 }
 .benefits .container_whait button{
     background-color: var(--lightviolet);
     color: var(--white);
     padding: 0.5rem 2rem;
     border: 0;
-    border-radius: 1rem
-    ;
+    border-radius: 1rem;
+    width: 35%;
 }
 /* #endregion benefits */
 /* #region about */
@@ -306,7 +313,19 @@ nav .ico_menu svg {
     }
 
     .intro .container .img {
-        justify-content: start;
+        justify-content: center;
+    }
+    .partners .container_violet .text_area h2,
+    .partners .container_violet .text_area p {
+        font-size: 1.5rem;
+        padding: 0 2.5rem;
+    }
+
+    .benefits .container_whait h4{
+        font-size: 2rem;
+    }
+    .benefits .container_whait p{
+        font-size: 1.5rem;
     }
 }
 
@@ -325,9 +344,24 @@ nav .ico_menu svg {
     /* main */
 
     /* intro */
+    .intro .col_lg_4{
+        padding: 1rem;
+    align-items: center;
+    }
+    .intro .col_lg_4 .container {
+        display: flex;
+        align-items: center;
+        margin: -8rem 0;
+        height: 100%;
+
+    }
+    .intro .col_md_8{
+        align-items: center;
+    }
+    
     .intro .col_md_8 .container {
         flex-direction: row;
-        align-items: start;
+    align-items: start;
     }
 
     .intro .col_md_8 .container p,
@@ -338,11 +372,21 @@ nav .ico_menu svg {
     /* planning */
     .planning .row {
         flex-direction: row;
-        align-items: center;
+        align-items: end;
+        justify-content: center;
     }
-
-    .planning .container img {
-        max-width: 50%;
+    .planning .container{
+        flex-direction: column;
+    align-items: center;
+    }
+    .planning .container img{
+        max-width: 79%;
+    }
+    .planning .container img,
+    .planning .container h2,
+    .planning .container 9 {
+        
+        padding: 3rem 0;
     }
 
     .planning .container_whait {
@@ -351,10 +395,11 @@ nav .ico_menu svg {
         margin-top: 20%;
         margin-bottom: 5%;
         line-height: 1.5rem;
+        padding: 1rem;
     }
 
     .planning .container_whait .disc {
-        width: 10%;
+        width: 20%;
     }
     .partners .container_violet .text_area {
         width: 60%;
@@ -366,7 +411,15 @@ nav .ico_menu svg {
         font-size: 2rem;
         padding: 0 3rem;
     }
-
+    .benefits .container_whait h3{
+        font-size: 4rem;
+    }
+    .benefits .container_whait h4{
+        font-size: 3rem;
+    }
+    .benefits .container_whait p{
+        font-size: 2rem;
+    }
 
 }
 
