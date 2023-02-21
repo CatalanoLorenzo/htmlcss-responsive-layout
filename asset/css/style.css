@@ -103,11 +103,7 @@ nav .ico_menu svg {
     padding: 1rem 0;
 }
 
-.intro .col_md_8,
-.intro .col_md_4,
-.intro .col_12 {
-    padding: 1rem;
-}
+
 
 .intro .container {
     background-color: var(--lightblue);
@@ -243,7 +239,6 @@ nav .ico_menu svg {
     border-radius: 2rem;
     align-items: center;
     margin: 1rem 0;
-    padding: 1rem;
     width: 80%;
 }
 
@@ -275,17 +270,12 @@ nav .ico_menu svg {
     background-color: var(--lightviolet);
 }
 
-.benefits .col_12,
-.benefits .col_md_6,
-.benefits .col_lg_4 {
-    padding: 1rem;
-}
+
 
 .benefits .container_whait {
     background-color: var(--white);
     color: var(--lightviolet);
     border-radius: 2rem;
-    padding: 1rem;
 }
 
 .benefits .container_whait h3,
