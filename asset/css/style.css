@@ -431,7 +431,7 @@ footer .container p{
 /* #endregion footer */
 /* #region responsive */
 /* Tablet */
-@media screen and (min-width:768px) and (max-width:1552px) {
+@media screen and (min-width:768px) and (max-width:1200px) {
     .text_intro {
         text-align: left;
     }
@@ -486,7 +486,7 @@ footer .container p{
 }
 
 /* desktop */
-@media screen and (min-width: 1552px) {
+@media screen and (min-width: 1200px) {
 
     /* header */
     nav .menu_lg * {
