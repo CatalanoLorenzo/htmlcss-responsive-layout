@@ -48,10 +48,6 @@ button {
     padding: 1rem;
 }
 
-.debug main>* {
-    height: 500px;
-}
-
 /* #endregion debug */
 
 /* #region header */
@@ -63,7 +59,7 @@ header {
 }
 
 nav {
-    
+
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1rem;
@@ -113,6 +109,7 @@ nav .ico_menu svg {
     padding: 1rem;
     max-width: 100%;
 }
+
 .intro .container {
     background-color: var(--lightblue);
     border-radius: 1rem;
@@ -120,6 +117,7 @@ nav .ico_menu svg {
     flex-direction: column;
     align-items: center;
 }
+
 .intro .col_md_8 .container {
     height: 100%;
 }
@@ -287,13 +285,15 @@ nav .ico_menu svg {
     border-radius: 2rem;
     padding: 1rem;
 }
+
 .benefits .container_whait h3,
-.benefits .container_whait p{
+.benefits .container_whait p {
     padding: 1rem 0;
-} 
+}
+
 .benefits .container_whait h3 {
     font-size: 3rem;
-   
+
 }
 
 .benefits .container_whait p {
@@ -320,6 +320,7 @@ nav .ico_menu svg {
     padding: 10% 1rem;
     line-height: 1.5rem;
 }
+
 .about .container h2,
 .about .container_id h3,
 .about .container p {
@@ -330,7 +331,9 @@ nav .ico_menu svg {
 .about .container_id h3 {
     color: var(--lightviolet);
 }
-.about .container h2,.about .container_id h3 {
+
+.about .container h2,
+.about .container_id h3 {
     font-size: 2.5rem;
 }
 
@@ -376,8 +379,7 @@ nav .ico_menu svg {
 
 .get .container h4,
 .get .container h3,
-.get .container h2
-{
+.get .container h2 {
     padding: 2% 0;
 }
 
@@ -404,9 +406,11 @@ nav .ico_menu svg {
     font-size: 1.5rem;
     font-weight: 800;
 }
+
 .get .container p {
     padding: 10% 0;
 }
+
 .get .container p a {
     color: var(--white);
 }
@@ -414,22 +418,28 @@ nav .ico_menu svg {
 /* #endregion get */
 /* #endregion main */
 /* #region footer */
-footer{
+footer {
     background-color: var(--footer);
     justify-content: center;
 }
-footer .container{
+
+footer .container {
     text-align: center;
     color: var(--white);
     width: 60%;
 }
-footer .container p{
+
+footer .container p {
     padding: 5% 0;
 }
+
 /* #endregion footer */
 /* #region responsive */
-/* Tablet */
+/* #region Tablet resolution*/
 @media screen and (min-width:768px) and (max-width:1200px) {
+
+    /* #region main Tablet resolution */
+    /* #region intro Tablet resolution */
     .text_intro {
         text-align: left;
     }
@@ -438,12 +448,16 @@ footer .container p{
         justify-content: center;
     }
 
+    /* #endregion intro Tablet resolution */
+    /* #region partners Tablet resolution */
     .partners .container_violet .text_area h2,
     .partners .container_violet .text_area p {
         font-size: 1.5rem;
         padding: 0 2.5rem;
     }
 
+    /* #endregion partners Tablet resolution */
+    /* #region benefits Tablet resolution */
     .benefits .container_whait h4 {
         font-size: 2rem;
     }
@@ -452,6 +466,8 @@ footer .container p{
         font-size: 1.5rem;
     }
 
+    /* #endregion benefits Tablet resolution */
+    /* #region about Tablet resolution */
     .about .container h2 {
         font-size: 3.5rem;
     }
@@ -473,20 +489,29 @@ footer .container p{
         border-radius: 50%;
         width: 100%;
     }
-    .get .container{
+
+    /* #endregion about Tablet resolution */
+    /* #region get Tablet resolution */
+    .get .container {
         width: 60%;
         margin: auto;
     }
-   
-    footer .container{
+
+    /* #endregion get Tablet resolution */
+    /* #endregion main Tablet resolution */
+    /* #region footer Tablet resolution */
+    footer .container {
         width: 30%;
     }
+
+    /* #endregion footer Tablet resolution */
 }
 
-/* desktop */
+/* #endregion Tablet resolution*/
+/* #region desktop resolution*/
 @media screen and (min-width: 1200px) {
 
-    /* header */
+    /* #region header desktop resolution*/
     nav .menu_lg * {
         display: flex;
     }
@@ -495,9 +520,9 @@ footer .container p{
         display: none;
     }
 
-    /* main */
-
-    /* intro */
+    /* #endregion header desktop resolution */
+    /* #region main desktop resolution*/
+    /* #region intro desktop resolution*/
     .intro .col_lg_4 {
         padding: 1rem;
         align-items: center;
@@ -525,7 +550,8 @@ footer .container p{
         text-align: start;
     }
 
-    /* planning */
+    /* #endregion intro desktop resolution */
+    /* #region planning desktop resolution*/
     .planning .row {
         flex-direction: row;
         align-items: end;
@@ -565,13 +591,16 @@ footer .container p{
         width: 60%;
     }
 
-    /* partners */
+    /* #endregion planning desktop resolution */
+    /* #region partners desktop resolution */
     .partners .container_violet .text_area h2,
     .partners .container_violet .text_area p {
         font-size: 2rem;
         padding: 0 3rem;
     }
 
+    /* #endregion partners desktop resolution  */
+    /* #region benefits desktop resolution */
     .benefits .container_whait h3 {
         font-size: 4rem;
     }
@@ -584,6 +613,8 @@ footer .container p{
         font-size: 2rem;
     }
 
+    /* #endregion benefits desktop resolution */
+    /* #region about desktop resolution */
     .about .container_id {
         padding: 10% 38%;
         margin-left: -20%;
@@ -592,13 +623,25 @@ footer .container p{
     .about .container_id img {
         width: 80%;
     }
+
+    /* #endregion about desktop resolution */
+    /* #region get desktop resolution */
     .get .container {
         width: 50%;
         margin: auto;
     }
-    footer .container{
+
+    /* #endregion get desktop resolution */
+    /* #endregion main desktop resolution*/
+    /* #region footer desktop resolution */
+
+    footer .container {
         width: 30%;
     }
+
+
+    /* #endregion footer desktop resolution */
 }
 
+/* #endregion desktop resolution*/
 /* #endregion responsive */
