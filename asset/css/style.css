@@ -246,13 +246,16 @@ nav .ico_menu svg {
 }
 
 .partners .container_violet .img {
-    width: 80%;
+    width: 200px;
+    overflow: hidden;
+    aspect-ratio: 1/1;
     border-radius: 50%;
 }
 
 .partners .container_violet .img img {
-    max-width: 100%;
+    width: 200px;
     object-fit: cover;
+    aspect-ratio: 1/1;
 }
 
 .partners .container_violet .text_area {
