@@ -301,9 +301,49 @@ nav .ico_menu svg {
 /* #endregion benefits */
 /* #region about */
 .about {
+    color: gray;
     background-color: var(--white);
 }
-
+.about .container{
+    padding: 10% 1rem;
+    line-height: 1.5rem;
+}
+.about .container h2,
+.about .container_id h3{
+    color: var(--lightviolet);
+    padding: 1rem 0;
+}
+.about .container p{
+    padding: 1rem 0;
+}
+.about .container h2{
+    font-size: 2.5rem;
+}
+.about .container_id {
+    padding: 10% 1rem;
+    line-height: 1.5rem;
+    
+}
+.about .container_id h3{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+.about .container_id .img{
+    justify-content: left;
+}
+.about .container_id img{
+    border-radius: 50%;
+    width: 40%;
+}
+.about .container_id button{
+    border-radius: 2rem;
+    line-height: 1;
+    background-color: var(--lightviolet);
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.7rem 1.5rem ;
+}
 /* #endregion about */
 /* #endregion main */
 /* #region responsive */
@@ -328,6 +368,23 @@ nav .ico_menu svg {
     .benefits .container_whait p{
         font-size: 1.5rem;
     }
+    .about .container h2{
+        font-size: 3.5rem;
+    }
+    .about .container_id h3{
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    .about .container_id {
+        padding: 2rem 20%;
+    }
+    .about .container_id .img{
+        justify-content: center;
+    }
+    .about .container_id img{
+        border-radius: 50%;
+        width: 100%;
+}
 }
 
 /* desktop */
@@ -422,6 +479,14 @@ nav .ico_menu svg {
         font-size: 2rem;
     }
 
+    .about .container_id{
+        padding: 10% 38%;
+        margin-left: -20%;
+    }
+    
+    .about .container_id img{
+        width: 80%;
+    }
 }
 
 /* #endregion responsive */
