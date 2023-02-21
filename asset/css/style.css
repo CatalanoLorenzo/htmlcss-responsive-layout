@@ -156,15 +156,17 @@ nav .ico_menu svg {
     align-items: flex-end;
     height: 100%;
     aspect-ratio: 1/1;
-    justify-content: center;
+    
 }
 
 .intro img {
     max-width: 70%;
+    object-fit: contain;
 }
 
 .intro svg {
     height: 25%;
+    object-fit: contain;
 }
 
 
@@ -192,6 +194,7 @@ nav .ico_menu svg {
 
 .planning .container img {
     max-width: 100%;
+    object-fit: contain;
 }
 
 .planning .container_whait {
@@ -208,8 +211,8 @@ nav .ico_menu svg {
 .planning .container_whait img {
     max-width: 65%;
     padding: 1rem 0;
-    text-align: center;
     margin-left: 20%;
+    object-fit: contain;
 }
 
 .planning .container_whait .disc {
@@ -243,15 +246,14 @@ nav .ico_menu svg {
 }
 
 .partners .container_violet .img {
-    width: 30%;
-    padding: 0.5rem;
+    width: 80%;
+    border-radius: 3px;
+    padding: 10%;
 }
 
 .partners .container_violet .img img {
     max-width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-    padding: 10%;
+    object-fit: cover;
 }
 
 .partners .container_violet .text_area {
