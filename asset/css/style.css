@@ -57,13 +57,18 @@ button {
 /* #region header */
 header {
     background-color: var(--header);
+    position: fixed;
+    width: 100%;
+    justify-content: center;
 }
 
 nav {
+    
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     padding: 1rem 1rem;
+    width: 90%;
+    max-width: 1552px;
 }
 
 nav .logo img {
