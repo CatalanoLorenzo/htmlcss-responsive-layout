@@ -271,26 +271,31 @@ nav .ico_menu svg {
 .benefits {
     background-color: var(--lightviolet);
 }
+
 .benefits .col_12,
 .benefits .col_md_6,
-.benefits .col_lg_4{
+.benefits .col_lg_4 {
     padding: 1rem;
 }
+
 .benefits .container_whait {
     background-color: var(--white);
     color: var(--lightviolet);
     border-radius: 2rem;
     padding: 1rem;
 }
-.benefits .container_whait h3{
+
+.benefits .container_whait h3 {
     font-size: 3rem;
     padding: 1rem 0;
 }
-.benefits .container_whait p{
+
+.benefits .container_whait p {
     color: gray;
     padding: 1rem 0;
 }
-.benefits .container_whait button{
+
+.benefits .container_whait button {
     background-color: var(--lightviolet);
     color: var(--white);
     padding: 0.5rem 2rem;
@@ -298,53 +303,112 @@ nav .ico_menu svg {
     border-radius: 1rem;
     width: 35%;
 }
+
 /* #endregion benefits */
 /* #region about */
 .about {
     color: gray;
     background-color: var(--white);
 }
-.about .container{
+
+.about .container {
     padding: 10% 1rem;
     line-height: 1.5rem;
 }
+
 .about .container h2,
-.about .container_id h3{
+.about .container_id h3 {
     color: var(--lightviolet);
     padding: 1rem 0;
 }
-.about .container p{
+
+.about .container p {
     padding: 1rem 0;
 }
-.about .container h2{
+
+.about .container h2 {
     font-size: 2.5rem;
 }
+
 .about .container_id {
     padding: 10% 1rem;
     line-height: 1.5rem;
-    
+
 }
-.about .container_id h3{
+
+.about .container_id h3 {
     font-size: 2rem;
     line-height: 2.5rem;
 }
-.about .container_id .img{
+
+.about .container_id .img {
     justify-content: left;
 }
-.about .container_id img{
+
+.about .container_id img {
     border-radius: 50%;
     width: 40%;
 }
-.about .container_id button{
+
+.about .container_id button {
     border-radius: 2rem;
     line-height: 1;
     background-color: var(--lightviolet);
     color: var(--white);
     font-size: 1.3rem;
     font-weight: bold;
-    padding: 0.7rem 1.5rem ;
+    padding: 0.7rem 1.5rem;
 }
+
 /* #endregion about */
+/* #region get */
+.get {
+    background-color: var(--lightviolet);
+}
+
+.get .container {
+    color: var(--white);
+    padding: 10% 0;
+}
+
+.get .container h4,
+.get .container h3,
+.get .container h2
+{
+    padding: 3% 0;
+}
+
+.get .container h4 {
+    color: lightgray;
+    font-size: 1rem;
+}
+
+.get .container h3 {
+    font-size: 2rem;
+}
+
+.get .container h2 {
+    color: var(--yellow);
+    font-size: 3rem;
+}
+
+.get .container button {
+    border-radius: 2rem;
+    background-color: white;
+    color: var(--lightviolet);
+    width: 60%;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.get .container p {
+    padding: 10% 0;
+}
+.get .container p a {
+    color: var(--white);
+}
+
+/* #endregion get */
 /* #endregion main */
 /* #region responsive */
 /* Tablet */
@@ -356,35 +420,48 @@ nav .ico_menu svg {
     .intro .container .img {
         justify-content: center;
     }
+
     .partners .container_violet .text_area h2,
     .partners .container_violet .text_area p {
         font-size: 1.5rem;
         padding: 0 2.5rem;
     }
 
-    .benefits .container_whait h4{
+    .benefits .container_whait h4 {
         font-size: 2rem;
     }
-    .benefits .container_whait p{
+
+    .benefits .container_whait p {
         font-size: 1.5rem;
     }
-    .about .container h2{
+
+    .about .container h2 {
         font-size: 3.5rem;
     }
-    .about .container_id h3{
+
+    .about .container_id h3 {
         font-size: 2.5rem;
         line-height: 3.5rem;
     }
+
     .about .container_id {
         padding: 2rem 20%;
     }
-    .about .container_id .img{
+
+    .about .container_id .img {
         justify-content: center;
     }
-    .about .container_id img{
+
+    .about .container_id img {
         border-radius: 50%;
         width: 100%;
-}
+    }
+    .get .container{
+        width: 60%;
+        margin: auto;
+    }
+   
+
 }
 
 /* desktop */
@@ -402,10 +479,11 @@ nav .ico_menu svg {
     /* main */
 
     /* intro */
-    .intro .col_lg_4{
+    .intro .col_lg_4 {
         padding: 1rem;
-    align-items: center;
+        align-items: center;
     }
+
     .intro .col_lg_4 .container {
         display: flex;
         align-items: center;
@@ -413,13 +491,14 @@ nav .ico_menu svg {
         height: 100%;
 
     }
-    .intro .col_md_8{
+
+    .intro .col_md_8 {
         align-items: center;
     }
-    
+
     .intro .col_md_8 .container {
         flex-direction: row;
-    align-items: start;
+        align-items: start;
     }
 
     .intro .col_md_8 .container p,
@@ -433,17 +512,20 @@ nav .ico_menu svg {
         align-items: end;
         justify-content: center;
     }
-    .planning .container{
+
+    .planning .container {
         flex-direction: column;
-    align-items: center;
+        align-items: center;
     }
-    .planning .container img{
+
+    .planning .container img {
         max-width: 79%;
     }
+
     .planning .container img,
     .planning .container h2,
-    .planning .container 9 {
-        
+    .planning .container p {
+
         padding: 3rem 0;
     }
 
@@ -459,6 +541,7 @@ nav .ico_menu svg {
     .planning .container_whait .disc {
         width: 20%;
     }
+
     .partners .container_violet .text_area {
         width: 60%;
     }
@@ -469,23 +552,30 @@ nav .ico_menu svg {
         font-size: 2rem;
         padding: 0 3rem;
     }
-    .benefits .container_whait h3{
+
+    .benefits .container_whait h3 {
         font-size: 4rem;
     }
-    .benefits .container_whait h4{
+
+    .benefits .container_whait h4 {
         font-size: 3rem;
     }
-    .benefits .container_whait p{
+
+    .benefits .container_whait p {
         font-size: 2rem;
     }
 
-    .about .container_id{
+    .about .container_id {
         padding: 10% 38%;
         margin-left: -20%;
     }
-    
-    .about .container_id img{
+
+    .about .container_id img {
         width: 80%;
+    }
+    .get .container {
+        width: 50%;
+        margin: auto;
     }
 }
 
