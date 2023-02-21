@@ -241,13 +241,14 @@ nav .ico_menu svg {
     color: var(--white);
     border-radius: 2rem;
     align-items: center;
-    justify-content: space-between;
     margin: 1rem 0;
+    padding: 1rem;
+    width: 80%;
 }
 
 .partners .container_violet .img {
     width: 200px;
-    overflow: hidden;
+    overflow: auto;
     aspect-ratio: 1/1;
     border-radius: 50%;
 }
@@ -258,9 +259,7 @@ nav .ico_menu svg {
     aspect-ratio: 1/1;
 }
 
-.partners .container_violet .text_area {
-    width: 65%;
-}
+
 
 .partners .container_violet .text_area h2,
 .partners .container_violet .text_area p {
