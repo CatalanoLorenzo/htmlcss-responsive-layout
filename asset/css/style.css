@@ -113,7 +113,6 @@ nav .ico_menu svg {
     padding: 1rem;
     max-width: 100%;
 }
-
 .intro .container {
     background-color: var(--lightblue);
     border-radius: 1rem;
@@ -121,7 +120,6 @@ nav .ico_menu svg {
     flex-direction: column;
     align-items: center;
 }
-
 .intro .col_md_8 .container {
     height: 100%;
 }
@@ -289,15 +287,17 @@ nav .ico_menu svg {
     border-radius: 2rem;
     padding: 1rem;
 }
-
+.benefits .container_whait h3,
+.benefits .container_whait p{
+    padding: 1rem 0;
+} 
 .benefits .container_whait h3 {
     font-size: 3rem;
-    padding: 1rem 0;
+   
 }
 
 .benefits .container_whait p {
     color: gray;
-    padding: 1rem 0;
 }
 
 .benefits .container_whait button {
@@ -320,18 +320,17 @@ nav .ico_menu svg {
     padding: 10% 1rem;
     line-height: 1.5rem;
 }
-
 .about .container h2,
-.about .container_id h3 {
-    color: var(--lightviolet);
-    padding: 1rem 0;
-}
-
+.about .container_id h3,
 .about .container p {
     padding: 1rem 0;
 }
 
-.about .container h2 {
+.about .container h2,
+.about .container_id h3 {
+    color: var(--lightviolet);
+}
+.about .container h2,.about .container_id h3 {
     font-size: 2.5rem;
 }
 
@@ -343,7 +342,6 @@ nav .ico_menu svg {
 
 .about .container_id h3 {
     font-size: 2rem;
-    line-height: 2.5rem;
 }
 
 .about .container_id .img {
